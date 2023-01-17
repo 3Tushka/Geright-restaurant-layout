@@ -66,12 +66,6 @@
     }
 }
 
-.navbar__smallscreen {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 .navbar__smallscreen_overlay {
     position: fixed;
@@ -134,6 +128,8 @@
 
         &__smallscreen {
             display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         &__buttons {
