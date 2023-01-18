@@ -6,6 +6,7 @@
     height: 90vh;
     color: #fff;
     font-family: var(--font-base);
+    padding: 7.5rem;
 
     &__image {
         display: flex;
@@ -22,6 +23,7 @@
         width: 50%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     &__main-text {
@@ -43,6 +45,6 @@
 
     &__menu-btn {
         margin-top: 32px;
-        width: 40%;
+        width: 170px;
     }
 }

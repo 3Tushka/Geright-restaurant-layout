@@ -21,4 +21,10 @@
     border: none;
     outline: none;
     cursor: pointer;
+
+    transition: 0.35s ease-in-out;
+}
+
+.custom__button:hover {
+    background-color: var(--color-golden);
 }
