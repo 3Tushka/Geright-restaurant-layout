@@ -1,0 +1,88 @@
+.bar {
+    background: url('../../assets/mathew-schwartz-Benzk1i1iks-unsplash 1.png');
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+
+    &__wrapper {
+        backdrop-filter: brightness(60%);
+    }
+
+    &__logo {
+        padding: 6rem 9rem 0;
+
+        img {
+            width: 13%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        color: var(--color-crimson);
+
+        padding: 5.3rem 9rem;
+
+        list-style: none;
+        gap: 64px;
+
+        p {
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 130%;
+
+            letter-spacing: 0.03em;
+
+            transition: 0.3s ease-in-out;
+
+            display: inline-block;
+        }
+
+        p::after {
+            content: '';
+            width: 0px;
+            height: 3px;
+            display: block;
+            background: var(--color-crimson);
+            transition: 300ms;
+        }
+
+        p:hover::after {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .bar {
+        background-position: left;
+
+        &__logo {
+            padding: 2rem 0;
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 100px;
+            }
+        }
+
+        &__menu {
+            padding: 1rem;
+            text-align: center;
+
+            gap: 32px;
+
+            p {
+                font-size: 45px;
+            }
+        }
+    }
+}
