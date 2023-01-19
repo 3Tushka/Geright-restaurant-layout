@@ -1,0 +1,133 @@
+.chef {
+    background-image: url("../../assets/bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 8rem 19.375rem;
+    gap: 96px;
+
+    color: var(--color-white);
+
+    &__image {
+
+        img {
+            width: 586px;
+            height: 741px;
+            object-fit: cover;
+        }
+    }
+}
+
+.chef-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 4rem;
+
+    .chef-info-titleBox {
+
+        font-family: var(--font-base);
+
+        &__sub-title {
+
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 130%;
+
+            letter-spacing: 0.04em;
+        }
+
+        &__main-title {
+            color: var(--color-golden);
+
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 200%;
+            /* or 83px */
+
+            letter-spacing: 0.03em;
+            text-transform: capitalize;
+            font-feature-settings: 'tnum' on, 'lnum' on;
+        }
+    }
+
+    .chef-info-desc {
+        p {
+            color: var(--color-grey);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            letter-spacing: 0.04em;
+        }
+    }
+
+    .chef-info-personal {
+        font-family: var(--font-base);
+
+        &__name {
+            margin-bottom: 1rem;
+            color: var(--color-golden);
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 130%;
+            /* identical to box height, or 42px */
+
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+        }
+
+        &__position {
+            color: var(--color-grey);
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 175%;
+            /* identical to box height, or 28px */
+
+            letter-spacing: 0.04em;
+        }
+
+        &__signature-image {
+
+            img {
+                margin-top: 4rem;
+                width: 235px;
+                height: 83px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .chef {
+        display: flex;
+        flex-direction: column;
+
+        padding: 4rem 6rem;
+
+        &__image {
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .chef-info {
+
+        gap: 3.2rem;
+
+        .chef-info-titleBox {
+
+            &__main-title {
+                font-size: 23px;
+            }
+        }
+    }
+}
