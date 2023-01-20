@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, Bar } from './container';
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, Bar, Customers } from './container';
 import { Navbar } from './components';
 import './App.scss';
 import './index.scss'
@@ -14,6 +14,7 @@ const App = () => (
     <SpecialMenu />
     <Chef />
     <Intro />
+    <Customers />
     <Laurels />
     <Gallery />
     <FindUs />

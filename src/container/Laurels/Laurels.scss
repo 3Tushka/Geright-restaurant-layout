@@ -1,0 +1,78 @@
+.laurels {
+    background-color: var(--color-black);
+    background-image: url('../../assets/bg.png');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 4rem 8rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__image {
+
+        img {
+            width: 555px;
+        }
+    }
+}
+
+.laurels-title {
+    display: flex;
+    flex-direction: column;
+
+    .laurels-awards {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem 2rem;
+    }
+
+    .laurels-awards-card {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .laurels {
+        flex-direction: column;
+        padding: 2rem;
+
+        &__image {
+            display: none;
+        }
+    }
+
+    .laurels-awards-card {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .laurels-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1150px) {
+
+    .laurels {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .laurels {
+        padding: 2rem 4rem;
+    }
+}

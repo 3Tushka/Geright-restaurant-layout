@@ -79,4 +79,33 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+const customers = [
+  {
+    imageCustUrl: images.customer1,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+    nameCus: 'Wade Warren',
+    positionCus: 'Sommelier'
+  },
+
+  {
+    imageCustUrl: images.customer2,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+    nameCus: 'Jane Cooper',
+    positionCus: 'Chef'
+  },
+  {
+    imageCustUrl: images.customer3,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+    nameCus: 'Robert Fox',
+    positionCus: 'Chef'
+  },
+  {
+    imageCustUrl: images.customer4,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.',
+    nameCus: 'Brooklyn Simmons',
+    positionCus: 'Caterer'
+  },
+];
+
+
+export default { wines, cocktails, awards, customers };
