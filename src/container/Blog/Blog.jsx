@@ -42,7 +42,9 @@ const Blog = () => (
             {data.blog.map((blogItem) => <BlogCard blogItem={blogItem} key={blogItem.blogTitle} />)}
         </div>
 
-        <div className="blog-button custom__button">View More</div>
+        <div className="blog-button">
+            <button className="custom__button">View More</button>
+        </div>
     </div >
 );
 
