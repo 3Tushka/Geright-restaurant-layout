@@ -16,10 +16,10 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 );
 
 const Laurels = () => (
-  <div className="laurels">
+  <div className="laurels bg__wrapper" id='awards'>
     <div className="laurels-title">
       <SubHeading title={"Awards & Recognitions"} />
-      <h1>Our Laurels</h1>
+      <h1 className='headtext__cormorant'>Our Laurels</h1>
 
       <div className="laurels-awards">
         {data.awards.map((award) => <AwardCard award={award} key={award.title} />)}

@@ -13,7 +13,8 @@ const AboutUs = () => (
     <div className="about__content flex__center">
       <div className="about__info">
         <div className="about__info-title">
-          <SubHeading title="About Us" />
+          <h1 className="headtext__cormorant">About Us</h1>
+          <SubHeading />
         </div>
         <div className="about__info-desc">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus provident soluta inventore debitis fugit saepe suscipit, a impedit exercitationem vitae, earum ut quia alias ab, veniam cumque. Ut, eveniet nemo?</p>
@@ -27,7 +28,8 @@ const AboutUs = () => (
       </div>
       <div className="about__history">
         <div className="about__history-title">
-          <SubHeading title="Our History" />
+          <h1 className="headtext__cormorant">Our History</h1>
+          <SubHeading />
         </div>
         <div className="about__history-desc">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus provident soluta inventore debitis fugit saepe suscipit, a impedit exercitationem vitae, earum ut quia alias ab, veniam cumque. Ut, eveniet nemo?</p>

@@ -5,7 +5,7 @@ import { data, images } from '../../constants';
 import './SpecialMenu.scss';
 
 const SpecialMenu = () => (
-  <div className="specials">
+  <div className="specials" id='menu'>
     <div className="specials-title">
       <div className="specials-title__sub-text flex__center">
         <SubHeading title="Menu That Fits You Pallete" />

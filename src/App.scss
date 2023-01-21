@@ -28,3 +28,29 @@
 .custom__button:hover {
     background-color: var(--color-golden);
 }
+
+.bg__wrapper {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p__cormorant {
+    color: var(--color-white);
+    text-transform: capitalize;
+    line-height: 29.9px;
+    font-size: 23px;
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+
+.headtext__cormorant {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: .04em;
+    text-transform: capitalize;
+}

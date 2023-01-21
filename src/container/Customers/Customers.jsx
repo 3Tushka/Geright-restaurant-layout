@@ -3,20 +3,22 @@ import { SubHeading } from '../../components'
 import './customers.scss'
 import { images, data } from '../../constants';
 
-const Names = ({ }) => (
-    <div className="customer">
+const CustomerCard = ({ customer: { imageCustUrl, description, nameCus, positionCus } }) => (
+    <div className="customer flex__center">
         <div className="customer-img">
-            <img src="" alt="" />
+            <img src={imageCustUrl} alt="customer" />
         </div>
         <div className="customer-content">
             <div className="customer-content__desc">
-
+                <p>{description}</p>
             </div>
-            <div className="customer-content__name">
-
-            </div>
-            <div className="customer-content__position">
-
+            <div className="customer-content-info">
+                <div className="customer-content-info__name">
+                    <p>{nameCus}</p>
+                </div>
+                <div className="customer-content-info__position">
+                    <p className='p__cormorant'>{positionCus}</p>
+                </div>
             </div>
         </div>
     </div>
@@ -26,29 +28,11 @@ function Customers() {
     return (
         <div className="customers">
             <div className="customers-title flex__center">
-                <div className="customers-title__sub-title">
-                    <SubHeading title={"Testimony"} />
-                </div>
-                <div className="customers-title__main-title">
-                    <h1>Happy customers</h1>
-                </div>
+                <SubHeading title={"Testimony"} />
+                <h1 className='headtext__cormorant'>Happy customers</h1>
             </div>
-
-            <div className="customers-grid">
-                <div className="customers-grid-item">
-
-                </div>
-
-                <div className="customers-grid-item">
-                </div>
-
-                <div className="customers-grid-item">
-
-                </div>
-
-                <div className="customers-grid-item">
-
-                </div>
+            <div className="customers-box">
+                {data.customers.map((customer) => <CustomerCard customer={customer} key={customer.nameCus} />)}
             </div>
         </div>
     )

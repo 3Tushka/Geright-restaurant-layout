@@ -26,18 +26,9 @@
         justify-content: center;
     }
 
-    &__main-text {
-        color: var(--color-golden);
-        font-weight: 700;
-        font-size: 90px;
-        line-height: 130%;
-        letter-spacing: 0.04em;
-        text-transform: capitalize;
-    }
-
     &__sub-text {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 175%;
 
         letter-spacing: 0.04em;

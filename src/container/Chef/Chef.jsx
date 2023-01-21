@@ -6,7 +6,7 @@ import SubHeading from '../../components/SubHeading/SubHeading';
 import './Chef.scss';
 
 const Chef = () => (
-  <div className="chef flex__center">
+  <div className="chef flex__center bg__wrapper">
     <div className="chef__image">
       <img src={chef} alt="chef-image" />
     </div>

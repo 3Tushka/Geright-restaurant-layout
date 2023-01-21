@@ -8,7 +8,7 @@ const Header = () => (
   <div className="header section__padding">
     <div className="header__wrapper">
       <SubHeading title="Chase The New Flavour" />
-      <h1 className="header__main-text">
+      <h1 className="headtext__cormorant">
         The Key To Fine Dining
       </h1>
       <h3 className="header__sub-text">
