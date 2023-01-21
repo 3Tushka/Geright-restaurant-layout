@@ -9,6 +9,7 @@ import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import Bar from './Bar/Bar';
 import Customers from './Customers/Customers';
+import Blog from './Blog/Blog';
 
 export {
   AboutUs,
@@ -22,4 +23,5 @@ export {
   SpecialMenu,
   Bar,
   Customers,
+  Blog,
 };

@@ -25,6 +25,11 @@ import customer2 from '../assets/customer2.png';
 import customer3 from '../assets/customer3.png';
 import customer4 from '../assets/customer4.png';
 
+import blog1 from '../assets/blog1.png';
+import blog2 from '../assets/blog2.png';
+import blog3 from '../assets/blog3.png';
+
+
 export default {
   bg,
   chef,
@@ -51,5 +56,8 @@ export default {
   customer1,
   customer2,
   customer3,
-  customer4
+  customer4,
+  blog1,
+  blog2,
+  blog3,
 };

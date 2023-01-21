@@ -107,5 +107,31 @@ const customers = [
   },
 ];
 
+const blog = [
+  {
+    blogImageUrl: images.blog1,
+    blogDate: '11 Apr 2021',
+    blogName: 'Annalisa L',
+    blogTitle: 'tips for prepping and caring for your grill',
+    blogDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.',
+  },
 
-export default { wines, cocktails, awards, customers };
+  {
+    blogImageUrl: images.blog2,
+    blogDate: '23 May 2021',
+    blogName: 'John Michael',
+    blogTitle: 'summer cocktails and mocktails',
+    blogDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.',
+  },
+
+  {
+    blogImageUrl: images.blog3,
+    blogDate: '06 Aug 2021',
+    blogName: 'Fred W',
+    blogTitle: 'easy cooking for college students',
+    blogDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.',
+  },
+]
+
+
+export default { wines, cocktails, awards, customers, blog };
