@@ -1,6 +1,6 @@
 import React from 'react';
 import { SubHeading } from '../../components';
-import welcome from '../../assets/welcome.png';
+import welcome from '../../assets/welcome.webp';
 
 import './Header.scss';
 

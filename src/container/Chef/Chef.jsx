@@ -1,6 +1,6 @@
 import React from 'react';
-import chef from '../../assets/chef.png'
-import sign from '../../assets/sign.png'
+import chef from '../../assets/chef.webp';
+import sign from '../../assets/sign.png';
 import SubHeading from '../../components/SubHeading/SubHeading';
 
 import './Chef.scss';

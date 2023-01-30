@@ -1,5 +1,5 @@
 import React from 'react';
-import findus from '../../assets/findus.png';
+import findus from '../../assets/findus.webp';
 import { SubHeading } from '../../components';
 import './findus.scss';
 
