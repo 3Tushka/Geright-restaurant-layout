@@ -5,7 +5,7 @@ import welcome from '../../assets/welcome.png';
 import './Header.scss';
 
 const Header = () => (
-  <div className="header section__padding">
+  <div className="header">
     <div className="header__wrapper">
       <SubHeading title="Chase The New Flavour" />
       <h1 className="headtext__cormorant">
