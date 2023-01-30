@@ -4,7 +4,7 @@ import './Bar.scss'
 
 function Bar() {
     return (
-        <div className="bar bg__wrapper">
+        <div className="bar bg__wrapper" id='bar'>
             <div className="bar__wrapper">
                 <div className="bar__logo">
                     <img src={logo} alt="logo-bar" />

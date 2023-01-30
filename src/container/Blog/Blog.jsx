@@ -32,7 +32,7 @@ const BlogCard = ({ blogItem: { blogImageUrl, blogDate, blogName, blogTitle, blo
 );
 
 const Blog = () => (
-    <div className="blog">
+    <div className="blog" id='blog'>
         <div className="blog-title flex__center">
             <SubHeading title={"Blogs"} />
             <h1 className="headtext__cormorant">Gerícht updates</h1>

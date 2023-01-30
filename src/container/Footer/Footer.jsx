@@ -6,7 +6,7 @@ import { images } from '../../constants';
 import './Footer.scss';
 
 const Footer = () => (
-  <div className="footer">
+  <div className="footer" id='contact'>
     <FooterOverlay />
     <Newsletter />
 

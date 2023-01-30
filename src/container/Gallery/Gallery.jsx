@@ -20,7 +20,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="gallery bg__wrapper">
+    <div className="gallery bg__wrapper" id='gallery'>
       <div className="gallery-info">
         <div className="gallery-info__title">
           <SubHeading title={"Instagram"} />
