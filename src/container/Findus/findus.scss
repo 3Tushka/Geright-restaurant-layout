@@ -1,0 +1,119 @@
+.findUs {
+    background-color: var(--color-black);
+    width: 100%;
+    padding: 4rem 6rem;
+
+    .findUs-contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: 1 1;
+        justify-content: center;
+
+        .findUs-contact-address {
+            margin: 4rem 0 2rem;
+        }
+    }
+
+    .findUs-contact-openingHours {
+        color: var(--color-white);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2rem;
+
+        &__title {
+            color: var(--color-golden);
+            font-family: var(--font-base);
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 130%;
+            /* identical to box height, or 30px */
+
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+        }
+
+        &__time {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            gap: 1rem;
+
+            font-family: var(--font-alt);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            /* identical to box height, or 28px */
+            letter-spacing: 0.04em;
+        }
+    }
+
+    .findUs-button {
+        width: 120px;
+        margin-top: 4rem;
+    }
+}
+
+.findUs-image {
+    flex: 1 1;
+    align-items: center;
+    margin-left: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .findUs {
+        padding: 2rem 4rem;
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        .findUs-contact {
+            text-align: center;
+            align-items: center;
+
+            .findUs-contact-title {
+
+                h1 {
+                    font-size: 52px;
+                }
+            }
+
+            .findUs-contact-address {
+                margin: 1.5rem 0;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .findUs-image {
+        margin-left: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:1600px) {
+
+    .findUs-image {
+
+        img {
+            width: 100%;
+        }
+    }
+}
