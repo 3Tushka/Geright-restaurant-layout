@@ -131,7 +131,37 @@ const blog = [
     blogTitle: 'easy cooking for college students',
     blogDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.',
   },
-]
+];
+
+const frequentQuestions = [
+  {
+    qestion: 'How do i reach to the restaurant?',
+    answer: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+  },
+
+  {
+    qestion: 'Is there a reservation required?',
+    answer: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+  },
+
+  {
+    qestion: 'Can i host an event at The restaurant?',
+    answer: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+  },
+
+  {
+    qestion: 'Is valet parking available at the restaurant?',
+    answer: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+  },
+  {
+    qestion: 'When are the happy hours of your bar?',
+    answer: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+  },
+  {
+    qestion: 'Is seafood available at the restaurant?',
+    answer: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
+  },
+];
 
 
-export default { wines, cocktails, awards, customers, blog };
+export default { wines, cocktails, awards, customers, blog, frequentQuestions };

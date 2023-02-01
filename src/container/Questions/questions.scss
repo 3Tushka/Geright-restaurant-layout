@@ -1,0 +1,23 @@
+.questions {
+    padding: 4rem 0;
+    gap: 2rem;
+}
+
+.questions-image {
+    max-width: 634px;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:1268px) {
+
+    .questions {
+        padding: 2rem 1rem;
+        gap: 3rem;
+        flex-direction: column;
+    }
+}

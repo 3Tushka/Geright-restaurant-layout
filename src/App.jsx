@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, Bar, Customers, Blog } from './container';
+import { Faq } from './pages';
 import { Navbar } from './components';
 import './App.scss';
 import './index.scss'
