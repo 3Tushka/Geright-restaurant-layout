@@ -1,26 +1,15 @@
 import React from 'react';
+import { Route, Routes, Link } from 'react-router-dom';
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, Bar, Customers, Blog } from './container';
-import { Faq } from './pages';
-import { Navbar } from './components';
 import './App.scss';
 import './index.scss'
+import Homepage from './pages/Homepage/Homepage';
+import FAQ from './pages/FAQ/Faq';
+import NotFound from './pages/404/NotFound';
 
 const App = () => (
   <div>
-    <Navbar />
-    <Header />
-    <AboutUs />
-    <Bar />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Customers />
-    <Laurels />
-    <Blog />
-    <Gallery />
-    <FindUs />
-    <Footer />
+    <NotFound />
   </div>
 );
 

@@ -8,10 +8,10 @@ import './Navbar.scss';
 const Menu = () => (
   <>
     <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#menu">Menu</a></li>
-    <li><a href="#awards">Awards</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#pages">Pages</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#landing">Landing</a></li>
   </>
 );
 
