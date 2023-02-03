@@ -3,13 +3,12 @@ import { Route, Routes, Link } from 'react-router-dom';
 
 import './App.scss';
 import './index.scss'
-import Homepage from './pages/Homepage/Homepage';
-import FAQ from './pages/FAQ/Faq';
-import NotFound from './pages/404/NotFound';
+import { AboutPage, Faq } from './pages/index.js';
+
 
 const App = () => (
   <div>
-    <NotFound />
+    <AboutPage />
   </div>
 );
 

@@ -29,6 +29,9 @@ import blog1 from '../assets/blog1.webp';
 import blog2 from '../assets/blog2.webp';
 import blog3 from '../assets/blog3.webp';
 
+import tavern from '../assets/pexels-rachel-claire-4819658.png';
+import designTavern from '../assets/pexels-quark-studio-3201920.png';
+
 
 export default {
   bg,
@@ -60,4 +63,6 @@ export default {
   blog1,
   blog2,
   blog3,
+  tavern,
+  designTavern,
 };

@@ -29,6 +29,12 @@
     background-color: var(--color-golden);
 }
 
+.line {
+    width: 1px;
+    height: 30px;
+    background-color: var(--color-white);
+}
+
 .bg__wrapper {
     background-attachment: fixed;
     background-position: center;
