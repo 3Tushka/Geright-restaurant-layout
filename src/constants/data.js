@@ -163,5 +163,42 @@ const frequentQuestions = [
   },
 ];
 
+const chefs = [
+  {
+    chefImage: images.cook1,
+    chefName: 'Kevin Luo',
+    chefPosition: 'Head Chef',
+  },
 
-export default { wines, cocktails, awards, customers, blog, frequentQuestions };
+  {
+    chefImage: images.cook2,
+    chefName: 'Patrick Choi',
+    chefPosition: 'Deputy Chef',
+  },
+
+  {
+    chefImage: images.cook3,
+    chefName: 'Jack Biscoff',
+    chefPosition: 'Station Chef',
+  },
+
+  {
+    chefImage: images.cook4,
+    chefName: 'Stacy Lee',
+    chefPosition: 'Station Chef',
+  },
+
+  {
+    chefImage: images.cook5,
+    chefName: 'Aren Goodman',
+    chefPosition: 'Junior Chef',
+  },
+
+  {
+    chefImage: images.cook6,
+    chefName: 'Javier Dowsing',
+    chefPosition: 'Junior Chef',
+  },
+];
+
+export default { wines, cocktails, awards, customers, blog, frequentQuestions, chefs };

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Newsletter, Title } from '../../components'
+import { Navbar, Title } from '../../components'
 import { Feedback, Footer, Map } from '../../container'
 import './contact.scss'
 

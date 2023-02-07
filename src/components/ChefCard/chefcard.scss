@@ -1,0 +1,33 @@
+.chef-card {
+    flex-direction: column;
+
+    &__image {
+
+        img {
+            border: 1px solid var(--color-golden);
+        }
+    }
+
+    &__name {
+
+        margin-top: 2rem;
+
+        h1 {
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 130%;
+        }
+    }
+
+    &__position {
+        margin-top: 1rem;
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+
+            color: var(--color-grey);
+        }
+    }
+}

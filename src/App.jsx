@@ -3,12 +3,12 @@ import { Route, Routes, Link } from 'react-router-dom';
 
 import './App.scss';
 import './index.scss'
-import { Contact } from './pages/index.js';
+import { Team } from './pages/index.js';
 
 
 const App = () => (
   <div>
-    <Contact />
+    <Team />
   </div>
 );
 

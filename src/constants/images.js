@@ -32,6 +32,13 @@ import blog3 from '../assets/blog3.webp';
 import tavern from '../assets/pexels-rachel-claire-4819658.png';
 import designTavern from '../assets/pexels-quark-studio-3201920.png';
 
+import cook1 from '../assets/cook1.png';
+import cook2 from '../assets/cook2.png';
+import cook3 from '../assets/cook3.png';
+import cook4 from '../assets/cook4.png';
+import cook5 from '../assets/cook5.png';
+import cook6 from '../assets/cook6.png';
+
 
 export default {
   bg,
@@ -65,4 +72,10 @@ export default {
   blog3,
   tavern,
   designTavern,
+  cook1,
+  cook2,
+  cook3,
+  cook4,
+  cook5,
+  cook6,
 };
