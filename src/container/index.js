@@ -10,6 +10,8 @@ import SpecialMenu from './Menu/SpecialMenu';
 import Bar from './Bar/Bar';
 import Customers from './Customers/Customers';
 import Blog from './Blog/Blog';
+import Map from './Map/Map';
+import Feedback from './Feedback/Feedback';
 
 export {
   AboutUs,
@@ -24,4 +26,6 @@ export {
   Bar,
   Customers,
   Blog,
+  Map,
+  Feedback,
 };

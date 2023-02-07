@@ -1,0 +1,13 @@
+.map {
+    background: var(--color-black);
+}
+
+.map-border {
+    border: 2px solid var(--color-golden);
+}
+
+.map-content {
+    width: 70vw;
+    height: 60vh;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}

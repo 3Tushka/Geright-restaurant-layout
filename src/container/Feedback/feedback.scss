@@ -1,0 +1,39 @@
+.feedback {
+    background-image: url("../../assets/bg.png");
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.feedback-form {
+
+    form {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+.feedback-image {
+    max-width: 483px;
+    max-height: 691px;
+}
+
+@media screen and (max-width:450px) {
+    .feedback {
+        padding: 4rem 1.5rem;
+        flex-direction: column;
+    }
+
+    .feedback-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .feedback {
+        flex-direction: column;
+    }
+}

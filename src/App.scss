@@ -70,3 +70,12 @@
     letter-spacing: .04em;
     text-transform: capitalize;
 }
+
+.image__cover {
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
