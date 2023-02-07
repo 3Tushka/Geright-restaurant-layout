@@ -4,18 +4,37 @@
     align-items: center;
     text-align: center;
 
-    margin-top: 12rem;
+    margin-top: 6rem;
 
     &__title {
-        width: 80rem;
+        max-width: 80rem;
     }
 
     &__description {
         margin-top: 2rem;
-        width: 45%;
+        max-width: 45%;
 
         p {
             color: var(--color-grey);
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .headtitle {
+        margin-top: 4rem;
+
+        &__title {
+
+            .headtext__cormorant {
+                font-size: 30px;
+                line-height: 3rem;
+            }
+        }
+
+        &__description {
+
+            max-width: 80%;
         }
     }
 }

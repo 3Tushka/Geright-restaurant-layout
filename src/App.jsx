@@ -8,7 +8,7 @@ import { AboutPage, Faq } from './pages/index.js';
 
 const App = () => (
   <div>
-    <AboutPage />
+
   </div>
 );
 

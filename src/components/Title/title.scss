@@ -23,3 +23,17 @@
         }
     }
 }
+
+@media screen and (max-width:450px) {
+    .title {
+
+        height: 40vh;
+
+        .title-header-title {
+
+            .headtext__cormorant {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
