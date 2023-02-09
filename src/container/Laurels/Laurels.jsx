@@ -16,7 +16,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 );
 
 const Laurels = () => (
-  <div className="laurels bg__wrapper" id='awards'>
+  <div className="laurels bg__wrapper flex__center" >
     <div className="laurels-title">
       <SubHeading title={"Awards & Recognitions"} />
       <h1 className='headtext__cormorant'>Our Laurels</h1>

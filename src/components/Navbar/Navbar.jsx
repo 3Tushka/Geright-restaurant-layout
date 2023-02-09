@@ -3,15 +3,23 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import gericht from '../../assets/gericht.png'
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
+
 import './Navbar.scss';
+import { Faq, AboutPage, Homepage, Contact, Team, NotFound } from '../../pages';
 
 const Menu = () => (
   <>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#pages">Pages</a></li>
-    <li><a href="#contact">Contact Us</a></li>
-    <li><a href="#blog">Blog</a></li>
-    <li><a href="#landing">Landing</a></li>
+    <li><Link to="/src/pages/Homepage">Home</Link></li>
+    <li><Link to="/src/pages/About">About</Link></li>
+    <li><Link to="/src/pages/Team">Team</Link></li>
+    <li><Link to="/src/pages/FAQ">FAQ</Link></li>
+    <li><Link to="/src/pages/Contact">Contact</Link></li>
   </>
 );
 

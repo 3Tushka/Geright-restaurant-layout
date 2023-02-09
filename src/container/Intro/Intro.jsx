@@ -20,7 +20,7 @@ const Intro = () => {
   }
 
   return (
-    <div className="video" id='video'>
+    <div className="video">
       <video
         src={meal}
         ref={vidRef}

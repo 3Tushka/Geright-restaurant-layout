@@ -1,14 +1,29 @@
 import React from 'react';
-import { Route, Routes, Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
+import { Faq, AboutPage, Homepage, Contact, Team, NotFound } from './pages';
+
 
 import './App.scss';
 import './index.scss'
-import { Team } from './pages/index.js';
 
 
 const App = () => (
   <div>
-    <Team />
+    <Router>
+      <Routes>
+        <Route path="/src/pages/Homepage" element={<Homepage />} />
+        <Route path="/src/pages/About" element={<AboutPage />} />
+        <Route path="/src/pages/Contact" element={<Contact />} />
+        <Route path="/src/pages/Team" element={<Team />} />
+        <Route path="/src/pages/FAQ" element={<Faq />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   </div>
 );
 

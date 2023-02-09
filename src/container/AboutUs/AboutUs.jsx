@@ -6,7 +6,7 @@ import { SubHeading } from '../../components';
 import './AboutUs.scss';
 
 const AboutUs = () => (
-  <div className="about" id='about'>
+  <div className="about">
     <div className="about__g-image flex__center">
       <img src={G} alt="g-letter" />
     </div>

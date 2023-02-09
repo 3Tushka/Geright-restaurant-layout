@@ -26,7 +26,7 @@ const CustomerCard = ({ customer: { imageCustUrl, description, nameCus, position
 
 function Customers() {
     return (
-        <div className="customers" id='customers'>
+        <div className="customers">
             <div className="customers-title flex__center">
                 <SubHeading title={"Testimony"} />
                 <h1 className='headtext__cormorant'>Happy customers</h1>

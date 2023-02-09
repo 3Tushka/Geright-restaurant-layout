@@ -12,7 +12,7 @@ export default function Team() {
             <Navbar />
             <Title title={"Our Chefs"} previous={"Home"} next={"Our Team"} />
 
-            <div className="team-container section__padding flex__center">
+            <div className="team-container section__padding">
                 {data.chefs.map((chefs) => <ChefCard chefs={chefs} key={chefs.chefName} />)}
             </div>
             <Intro />
