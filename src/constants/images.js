@@ -1,4 +1,4 @@
-import bg from '../assets/bg.png';
+import bg from '../assets/bg.webp';
 import chef from '../assets/chef.webp';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.webp';
@@ -29,15 +29,15 @@ import blog1 from '../assets/blog1.webp';
 import blog2 from '../assets/blog2.webp';
 import blog3 from '../assets/blog3.webp';
 
-import tavern from '../assets/pexels-rachel-claire-4819658.png';
-import designTavern from '../assets/pexels-quark-studio-3201920.png';
+import tavern from '../assets/pexels-rachel-claire-4819658.webp';
+import designTavern from '../assets/pexels-quark-studio-3201920.webp';
 
-import cook1 from '../assets/cook1.png';
-import cook2 from '../assets/cook2.png';
-import cook3 from '../assets/cook3.png';
-import cook4 from '../assets/cook4.png';
-import cook5 from '../assets/cook5.png';
-import cook6 from '../assets/cook6.png';
+import cook1 from '../assets/cook1.webp';
+import cook2 from '../assets/cook2.webp';
+import cook3 from '../assets/cook3.webp';
+import cook4 from '../assets/cook4.webp';
+import cook5 from '../assets/cook5.webp';
+import cook6 from '../assets/cook6.webp';
 
 
 export default {
