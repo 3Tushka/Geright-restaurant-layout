@@ -4,7 +4,6 @@ import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 import Title from './Title/Title';
-import TextInputs from './Inputs/TextInputs';
 
 export {
   SubHeading,
@@ -13,5 +12,4 @@ export {
   MenuItem,
   Navbar,
   Title,
-  TextInputs,
 };

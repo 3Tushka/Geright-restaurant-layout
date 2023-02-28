@@ -12,6 +12,7 @@ import Customers from './Customers/Customers';
 import Blog from './Blog/Blog';
 import Map from './Map/Map';
 import Feedback from './Feedback/Feedback';
+import ContactForm from './Feedback/ContactForm/ContactForm.jsx';
 
 export {
   AboutUs,
@@ -28,4 +29,5 @@ export {
   Blog,
   Map,
   Feedback,
+  ContactForm
 };

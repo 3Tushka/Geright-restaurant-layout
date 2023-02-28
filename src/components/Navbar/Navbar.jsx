@@ -1,17 +1,13 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-import gericht from '../../assets/gericht.png'
+import { images } from '../../constants';
 
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
   Link
 } from 'react-router-dom';
 
 import './Navbar.scss';
-import { Faq, AboutPage, Homepage, Contact, Team, NotFound } from '../../pages';
 
 const Menu = () => (
   <>
@@ -29,7 +25,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <img src={gericht} alt="logo" />
+        <img src={images.gericht} alt="logo" />
       </div>
       <ul className="navbar__links">
         <Menu />
