@@ -11,10 +11,13 @@
 }
 
 .newsletter-input {
-    flex-direction: row;
     margin-top: 3rem;
 
-    input {
+    form {
+        flex-direction: row;
+    }
+
+    .email-newsletter-input {
         width: 620px;
         border: 1px solid var(--color-golden);
         border-radius: 5px;
