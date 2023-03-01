@@ -6,7 +6,7 @@ import './Newsletter.scss';
 
 const Newsletter = () => {
 
-  const form = useRef();
+  const newsLetter = useRef();
 
   const sendSubscribe = (e) => {
     e.preventDefault();
@@ -29,7 +29,7 @@ const Newsletter = () => {
       </div>
 
       <div className="newsletter-input">
-        <form ref={form} onSubmit={sendSubscribe} className="flex__center">
+        <form ref={newsLetter} onSubmit={sendSubscribe} className="flex__center">
           <input type="email" name="email" placeholder="Enter your email address" className='email-newsletter-input' />
           <input type="submit" value="Send" className='custom__button button' />
         </form>

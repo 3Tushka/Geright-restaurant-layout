@@ -18,7 +18,7 @@
     }
 
     .email-newsletter-input {
-        width: 620px;
+        width: 77%;
         border: 1px solid var(--color-golden);
         border-radius: 5px;
         font-size: 1rem;
@@ -35,12 +35,6 @@
     }
 }
 
-@media screen and (min-width: 2000px) {
-    .app__newsletter-input input {
-        font-size: 2rem;
-    }
-}
-
 @media screen and (max-width: 990px) {
     .newsletter-input {
         flex-direction: column;
@@ -50,18 +44,20 @@
             margin: 0 0 2rem 0;
             width: 100%;
         }
+
+        .button {
+            width: 40%;
+        }
     }
 }
 
 @media screen and (max-width: 650px) {
     .newsletter {
-        padding: 2rem 0;
+        padding: 2rem;
         border: none;
     }
-}
 
-@media screen and (max-width: 300px) {
-    .app__newsletter-heading h1 {
+    .newsletter-heading h1 {
         font-size: 32px;
         line-height: 50px;
     }
